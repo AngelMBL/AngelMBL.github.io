@@ -1,0 +1,71 @@
+/* Estilos globales para el cuerpo */
+body {
+    background-color: #EED1F0; /* Fondo global */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Contenedor de la invitación */
+  .invitacion-container {
+    text-align: center;
+    background-color: #F0F6F6; /* Fondo del contenedor */
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 90%; /* Asegura que el contenedor sea ancho pero no demasiado */
+    max-width: 400px; /* Ajuste máximo para pantallas más grandes */
+    font-family: 'Arial, sans-serif';
+  }
+  
+  h1 {
+    color: #4a4a4a; /* Color gris oscuro */
+    font-size: 1.5em; /* Tamaño de fuente ajustado para móviles */
+  }
+  
+  .descripcion {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #6d6d6d; /* Color gris medio */
+  }
+  .hDireccion {
+    font-size: 2em;
+    color: #6d6d6d; /* Color gris medio */
+  }
+
+  .map-container {
+    margin: 10px 0;
+  }
+  
+  .direccion {
+    font-size: 1em;
+    color: #6d6d6d; /* Color gris medio */
+  }
+  
+  .direccion a {
+    color: #4a4a4a; /* Color gris oscuro */
+    text-decoration: none;
+  }
+  
+  .direccion a:hover {
+    text-decoration: underline;
+  }
+  
+  .confirmar-btn {
+    background-color: #F5CFE4;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 80%; /* Asegura que el botón sea ancho pero no demasiado */
+    max-width: 200px; /* Ajuste máximo para pantallas más grandes */
+    margin: 10px auto; /* Centra el botón horizontalmente */
+    display: block; /* Centra el botón horizontalmente */
+  }
+  
+  .confirmar-btn:hover {
+    background-color: #FAB9BD;
+  }
+  
